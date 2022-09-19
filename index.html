@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="TimeTool.js"></script>
+</head>
+
+<body>
+<script src="ts/TimeTool.js"></script>
+
+<label for="timesInput">Paste Your Time Log Here</label><br>
+<textarea cols="50" id="timesInput" name="timesInput"
+          placeholder="- 11:23 - 14:44&#10;- 15:01 - 15:49&#10;- 15:55 - 19:33&#10;- 19:55 -"
+          rows="4"
+></textarea>
+<br/>
+<button onclick="timeTextToFinishTimeAndStats()">Get Time Left</button>
+<br/>
+<div id="result">
+
+</div>
+</body>
+
+</html>
